@@ -18,3 +18,6 @@ rentElectYear = (int(amounts[1]) + int(amounts[2]))*12
 print("Amounts for Rent and Electricity in one year = " + str(rentElectYear) + "$")
 salaryPower2 = math.pow(int(salaryMonth) , 2) 
 print("The total salary raised of power 2 = " + str(salaryPower2) + "$")
+extra_Savings = 50 
+modulo = extra_Savings % int(amounts[0]) 
+print("Remaining after extra savings division: " + str(modulo) + "$")
